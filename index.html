@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+        <section class="section_1" id="section_1">
+          <header>
+            <a href="#popup"><img class="menu-hamburger" src="images/icon-hamburger.svg" alt="" /></a>
+            <img class="logo" src="images/logo.svg" alt="" />
+            <nav>
+              <a href="">home</a>
+              <a href="">shop</a>
+              <a href="">about</a>
+              <a href="">contact</a>
+            </nav>
+          </header>
+          <!-- <img src="images/desktop-image-hero-1.jpg" alt="" /> -->
+          <picture>
+            <source class="hero-1" media="(min-width: 600px)" srcset="images/desktop-image-hero-1.jpg">
+            <img class="mobile-hero" src="images/mobile-image-hero-1.jpg" alt="">
+          </picture>
+          <div class="section_1_2">
+            <h1 class="section-header">Discover innovative ways to decorate</h1>
+            <p class="section-description">
+              We provide unmatched quality, comfort, and style for property
+              owners across the country. Our experts combine form and function
+              in bringing your vision to life. Create a room in your own style
+              with our collection and make your property a reflection of you and
+              what you love.
+            </p>
+            <a href="">Shop now <img src="images/icon-arrow.svg" alt="" /></a>
+            <div class="section_1_navigation">
+              <img class="left" src="images/icon-angle-left.svg" alt="" />
+              <img class="right" src="images/icon-angle-right.svg" alt="" />
+            </div>
+          </div>
+        </section>
+
+      <section class="section_2">
+        <img src="images/image-about-dark.jpg" alt="">
+        <div class="about">
+          <h2>About our furniture</h2>
+          <p>
+            Our multifunctional collection blends design and function to suit
+            your individual taste. Make each room unique, or pick a cohesive
+            theme that best express your interests and what inspires you. Find
+            the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialists are available to
+            help you create your dream space.
+          </p>
+        </div>
+        <img src="images/image-about-light.jpg" alt="">
+      </div>
+    </main>
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <a href=""><img src="images/icon-close.svg" alt=""></a>
+        <a href="">home</a>
+        <a href="">shop</a>
+        <a href="">about</a>
+        <a href="">contact</a>
+      </div>
+    </div>
+    <!--  Shop now   Shop now -->
+      <script src="script.js"></script>
+  </body>
+</html>
